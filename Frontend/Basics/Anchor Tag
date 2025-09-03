@@ -1,0 +1,41 @@
+<!-- Anchor tag :-
+1) It is used to create a link to another webpage or another place
+   in the same webpage
+2) It is placed insid the body tag
+3) It is not a self closing tag
+4) <a href='https://www.google.com'>Google</a>
+   We can give link or we can give file name if we directly want to redirect 
+   into that file
+5) If we are using url then make sure we give full url with https or http
+
+
+<a href='https://www.google.com' target='_self'>Google</a>
+6) If we use target='_blank' , then the link will be opened in a new tab
+7) If we use target='_self' , then the link will be opened in the same tab
+8) By default target='self' is used 
+
+
+<a href='hello.html' target='_blank' title='displays hello file'>Hello</a>
+9) title is used as a hover the mouse on hello
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor tag</title>
+</head>
+<body>
+    <section>
+        <center>
+               <a href="https://www.google.com" target="_self" title="This takes you to google">Google</a>
+        </center>
+    </section>
+
+    
+</body>
+</html>
