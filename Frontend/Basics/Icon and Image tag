@@ -1,0 +1,41 @@
+<!-- ICON AND IMAGE TAGS
+I) icon :- 
+1) It is used to set the icon of the webpage 
+2) It is placed inside the head tag
+3) It is a self closing tag
+<link rel='icon' href='image.jpg' type='image/x-icon'>
+
+II) image :-
+1) It is used to display the image on the webpage
+2) It is placed inside the body tag
+3) It is a self closing tag
+<img src='image.jpg' title='testing' alt='testing' height='300' width='300'>
+
+NOTE :-
+1) Under head tag we use only title tag , icon tag , style tags in css ,
+meta tags and script tags in javascript
+2) Under body tag we use tags which displays the content on the webpage 
+like h1 to h6 , p , div , img , table , form , button , etc
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="testing_1">
+    <title>Testing</title>
+    
+    <!-- ICON -->
+     
+     <link rel="icon" href="image.jpg" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- IMAGE -->
+     <img src="image.jpg" title="tetsing" alt="testing" height="300" width="300">
+    
+</body>
+</html>
